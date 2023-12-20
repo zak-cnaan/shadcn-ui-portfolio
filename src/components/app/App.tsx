@@ -24,7 +24,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="h-[120px] bg-[red] fixed bottom-0 left-0 w-full z-0">
+      <footer className="h-[120px] bg-[red] fixed bottom-0 left-0 w-full z-20">
         footer
       </footer>
     </div>
