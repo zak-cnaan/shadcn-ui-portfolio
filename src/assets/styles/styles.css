@@ -1,13 +1,15 @@
-  :root {
-    --main-background: #fff;
-    --main-foreground: #212529;
-  }
+/* :root {
+  --main-background: #fff;
+  --main-foreground: #212529;
+}
 
-  .dark {
-    --main-background: #212529;
-    --main-foreground: #dee2e6;
-  }
-  body {
-    background: var(--main-background);
-    color: var(--main-foreground);
-  }
+.dark {
+  --main-background: #212529;
+  --main-foreground: #dee2e6;
+}
+
+body {
+  background: var(--main-background);
+  color: var(--main-foreground);
+} */
+@import './themes/themes.css';

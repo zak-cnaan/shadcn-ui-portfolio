@@ -1,4 +1,5 @@
 import Header from "../header/Header";
+import Sinc from "../sink/Sink";
 import { Button } from "../ui/button";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
      <Header />
 
       <main className="flex flex-col flex-grow pb-[120px] relative z-10">
-        <div className="flex items-center space-x-2 bg-[gray] flex-grow min-h-[1200px] justify-start flex-col">
+        <div className="flex-grow">
+        <Sinc />
           <div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
