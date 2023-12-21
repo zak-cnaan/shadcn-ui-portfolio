@@ -5,6 +5,10 @@
 Todo:
 git hub pages
 responsive header
+special footer
+container
+
+
 
 
 

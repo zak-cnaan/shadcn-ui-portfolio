@@ -1,3 +1,4 @@
+import Footer from "../footer/Footer";
 import Header from "../header/Header";
 import Sinc from "../sink/Sink";
 import { Button } from "../ui/button";
@@ -7,8 +8,8 @@ function App() {
     <div className="flex flex-col min-h-screen ">
      <Header />
 
-      <main className="flex flex-col flex-grow pb-[120px] relative z-10">
-        <div className="flex-grow">
+      <main className="flex flex-col flex-grow pb-[120px]-x relative z-10">
+        <div className="flex-grow bg-background">
         <Sinc />
           <div>
             <p>
@@ -24,9 +25,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="h-[120px] bg-[red] fixed bottom-0 left-0 w-full z-20">
-        footer
-      </footer>
+     <Footer />
     </div>
   );
 }
