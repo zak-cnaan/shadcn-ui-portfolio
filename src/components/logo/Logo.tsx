@@ -30,7 +30,7 @@ function Logo() {
           stroke-width="16"
         ></line>
       </svg> */}
-      <span className="hidden font-bold sm:inline-block">zak cnaan</span>
+      <span className=" font-bold inline-block">zak cnaan</span>
     </a>
   );
 }
